@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #7c37d7;
   transition: background 0.2s ease-in-out;
 }
 
@@ -187,8 +187,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background-image: linear-gradient(to right, #667eea,   #8E37D7);
-  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  background-image: linear-gradient(to right, #6253e1, #A3A1FF);
+  box-shadow: 0 4px 8px 0 rgba(52, 59, 161, 0.75);
  
 }
 
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/hero-bgg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -463,8 +463,8 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;    
-  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF);
-  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  background-image: linear-gradient(to right, #6253e1, #A3A1FF);
+  box-shadow: 0 4px 15px 0 rgba(52, 59, 161, 0.75);
 }
 
 /*--------------------------------------------------------------
@@ -1025,8 +1025,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background-image: linear-gradient(to right, #ed6ea0,  #f7186a , #FBB03B);
-  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  background: #eef7ff;
+  color:#7c37d7;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1144,8 +1144,9 @@ section {
   font-size: 18px;
   display: inline-block;
   color: #fff;
-  background-image: linear-gradient(to right, #667eea,   #8E37D7);
-  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);  color: #fff;
+  background-image: linear-gradient(to right, #6253e1, #A3A1FF);
+  box-shadow: 0 4px 15px 0 rgba(52, 59, 161, 0.75);  
+  color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1157,10 +1158,8 @@ section {
 }
 
 #footer .social-links a:hover {
-
-  background-image: linear-gradient(to right, #ed6ea0,  #f7186a , #FBB03B);
-  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-  color: #fff;
+  background: #eef7ff;
+  color:#7c37d7;
   text-decoration: none;
 }
 
